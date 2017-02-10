@@ -1,1 +1,1 @@
-include ':app', ':typetext'
+include ':app'

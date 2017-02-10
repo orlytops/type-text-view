@@ -1,4 +1,4 @@
-package com.daidaiiro.typetext;
+package com.daidaiiro.demo;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -16,11 +16,11 @@ import static org.junit.Assert.*;
  */
 @RunWith(AndroidJUnit4.class)
 public class ExampleInstrumentedTest {
-  @Test
-  public void useAppContext() throws Exception {
-    // Context of the app under test.
-    Context appContext = InstrumentationRegistry.getTargetContext();
+    @Test
+    public void useAppContext() throws Exception {
+        // Context of the app under test.
+        Context appContext = InstrumentationRegistry.getTargetContext();
 
-    assertEquals("com.daidaiiro.typetext", appContext.getPackageName());
-  }
+        assertEquals("com.daidaiiro.demo", appContext.getPackageName());
+    }
 }
